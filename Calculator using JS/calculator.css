@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    justify-content: center;
+}
+#container{
+    border: 2px solid rgb(18, 17, 17);
+    width: 300px;
+    height: 600px;
+    border-radius: 3px;
+    border-color: blue yellow green, red black;
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,173,155,1) 35%, rgba(0,212,255,1) 100%);;
+    justify-content: center;
+    margin-left: 39%;
+    margin-top: 4%;
+}
+#input{
+    margin:12px 0;
+    margin-left: 23px;
+    width:85%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: blue red black;
+    background-color: coral;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#btn{
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-color: blue red black;
+  border-radius: 7px;
+  background-color: black;
+  color: aliceblue;
+}
